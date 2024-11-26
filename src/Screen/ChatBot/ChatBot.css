@@ -1,0 +1,9 @@
+.chat-bot{
+    display: flex;
+    flex-direction: column;
+}
+.chat-bot .head{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
