@@ -1,9 +1,42 @@
 .chat-bot{
+    width: 500px;
     display: flex;
     flex-direction: column;
 }
 .chat-bot .head{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
     background-color: black;
+    padding: 10px 20px;
+}
+.chat-bot .head .close{
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+}
+.chat-bot .head .bot-name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.chat-bot .head .bot-name .icon{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    font-size: 32px;
+    border-radius: 50%;
+}
+.chat-bot .head .bot-name .bots-name{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.chat-bot .head .bot-name .bots-name .demo{
+    font-size: 13px;
+    color: rgb(176, 174, 174);
 }
