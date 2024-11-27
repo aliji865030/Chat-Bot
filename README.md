@@ -6,7 +6,7 @@ A React-based application that allows users to customize the appearance and beha
 
 You can check out the live demo of the chatbot customizer at the following link:
 
-[**Live Demo**](https://vercel.com/abbas-alis-projects/chat-bot)
+[**Live Demo**](https://chat-bot-psi-opal.vercel.app/)
 
 ## Table of Contents
 
