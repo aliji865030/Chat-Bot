@@ -2,6 +2,7 @@ import React from 'react'
 import "./ChatBot.css"
 import { IoMdClose } from "react-icons/io";
 import { BsChatDotsFill } from "react-icons/bs";
+import { IoMdSend } from "react-icons/io";
 
 const ChatBot = () => {
   return (
@@ -31,7 +32,14 @@ const ChatBot = () => {
                 </span>
             </div>
         </div>
-        <div className="foot"></div>
+        <div className="foot">
+            <div className='text'>
+                <input type="text" placeholder='Ask us anything...' />
+            </div>
+            <div className="icon">
+                <IoMdSend />
+            </div>
+        </div>
       
     </div>
   )
