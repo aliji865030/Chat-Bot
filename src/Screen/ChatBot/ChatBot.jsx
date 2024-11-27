@@ -5,10 +5,10 @@ import { IoMdSend } from "react-icons/io";
 import { StoreContext } from '../../Context/StoreContext';
 
 const ChatBot = () => {
-    const {botIcon,BGColor,BORDERColor,borderRadius} = useContext(StoreContext)
+    const {botIcon,BGColor,BORDERColor,borderRadius,titleBgColor,botTextAreaBg,botTextColor,userTextareaBg,userTextColor} = useContext(StoreContext)
   return (
     <div className='chat-bot' style={{borderColor:BORDERColor,borderRadius:borderRadius}}>
-        <div className="head">
+        <div className="head" style={{backgroundColor:titleBgColor}}>
             <div className="bot-name">
                 <div className='icon' style={{backgroundColor:BGColor}}>
                     {botIcon}
@@ -24,11 +24,11 @@ const ChatBot = () => {
         </div>
         <div className="chat">
             <div className='bot-q'>
-                <span>Hello Jinn</span>
+                <span style={{backgroundColor:userTextareaBg,color:userTextColor}}>Hello Jinn</span>
             </div>
             <div className='bot-reply'>
                 <span className='chat-icon'>{botIcon}</span>
-                <span className='bot-chat'>
+                <span className='bot-chat' style={{backgroundColor:botTextAreaBg,color:botTextColor}}>
                     <p>Hello Ali! How can i help you today?</p>
                 </span>
             </div>

@@ -35,3 +35,34 @@ export const bgColor = [
     "#f5f68f",
     "#f3f4de"
 ]
+
+export const darkColor = [
+    "#570c0e",
+    "#3249b1",
+    "#302b1f",
+    "#183717",
+    "#962c05",
+    "#86204a",
+    "#8c552f",
+    "#28263e",
+    "#15616f",
+    "#7d070e",
+    "#18635e",
+    "#2c0f2e",
+    "#3b575f",
+    "#2c0f2e",
+    "#1c557f",
+    "#772470",
+    "#38402d"
+]
+
+export const fonts = [
+    "Rubik",
+    "Parkinsans",
+    "Bokor",
+    "Sevillana",
+    "Protest Revolution",
+    "Dancing Script",
+    "Lacquer",
+    "Pacifico"
+]

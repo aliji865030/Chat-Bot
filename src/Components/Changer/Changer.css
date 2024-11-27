@@ -1,0 +1,31 @@
+.changer{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    width: 500px;
+    gap: 20px;
+}
+.changer button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #0f9bf0;
+    color: white;
+    cursor: pointer;
+}
+.changer button:hover{
+    transition: all .3s ease-in-out;
+    background-color: #075b90;
+}
+
+@media (max-width:770px) {
+    .changer{
+        width: 100%;
+        flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+  }
+  

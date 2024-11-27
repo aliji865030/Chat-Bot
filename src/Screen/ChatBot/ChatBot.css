@@ -105,3 +105,36 @@
     color: rgb(182, 180, 180);
     cursor: pointer;
 }
+
+@media (max-width:480px) {
+    .chat-bot{
+        width: 300px;
+    }
+    .chat-bot .foot .text input{
+        width: 200px;
+    }
+    .chat-bot .chat .bot-q span{
+        padding: 10px;
+    }
+    .chat-bot .chat .bot-reply .bot-chat{
+        padding: 10px;
+    }
+    .chat-bot .head .bot-name{
+        gap: 5px;
+    }
+    .chat-bot .head .bot-name .bots-name{
+        gap: 1px;
+    }
+    .chat-bot .chat{
+        min-height: 350px;
+    }
+}
+
+@media (max-width:330px) {
+    .chat-bot{
+        width: 250px;
+    }
+    .chat-bot .foot .text input{
+        width: 150px;
+    }
+}
