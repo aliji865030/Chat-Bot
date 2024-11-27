@@ -1,16 +1,17 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import "./ChatBot.css"
 import { IoMdClose } from "react-icons/io";
-import { BsChatDotsFill } from "react-icons/bs";
 import { IoMdSend } from "react-icons/io";
+import { StoreContext } from '../../Context/StoreContext';
 
 const ChatBot = () => {
+    const {botIcon,BGColor,BORDERColor,borderRadius} = useContext(StoreContext)
   return (
-    <div className='chat-bot'>
+    <div className='chat-bot' style={{borderColor:BORDERColor,borderRadius:borderRadius}}>
         <div className="head">
             <div className="bot-name">
-                <div className='icon'>
-                    <BsChatDotsFill style={{color:"#0f9bf0"}} />
+                <div className='icon' style={{backgroundColor:BGColor}}>
+                    {botIcon}
                 </div>
                 <div className='bots-name'>
                     <span>Jinn Live</span>
@@ -26,7 +27,7 @@ const ChatBot = () => {
                 <span>Hello Jinn</span>
             </div>
             <div className='bot-reply'>
-                <span className='chat-icon'><BsChatDotsFill /></span>
+                <span className='chat-icon'>{botIcon}</span>
                 <span className='bot-chat'>
                     <p>Hello Ali! How can i help you today?</p>
                 </span>

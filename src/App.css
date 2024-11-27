@@ -11,5 +11,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 100px;
   background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
 }
