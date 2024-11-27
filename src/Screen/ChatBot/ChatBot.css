@@ -1,7 +1,8 @@
 .chat-bot{
-    width: 500px;
+    width: 450px;
     display: flex;
     flex-direction: column;
+    background-color: white;
 }
 .chat-bot .head{
     display: flex;
@@ -39,4 +40,45 @@
 .chat-bot .head .bot-name .bots-name .demo{
     font-size: 13px;
     color: rgb(176, 174, 174);
+}
+
+.chat-bot .chat{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+    min-height: 450px;
+    gap: 20px;
+}
+.chat-bot .chat .bot-q{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.chat-bot .chat .bot-q span{
+    background-color: black;
+    padding: 20px;
+    max-width: 75%;
+    border-radius: 15px 15px 0px 15px;
+    color: rgb(255, 255, 255);
+}
+.chat-bot .chat .bot-reply{
+    display: flex;
+    justify-content:start;
+    align-items: start;
+    gap: 10px;
+    max-width: 75%;
+}
+.chat-bot .chat .bot-reply .chat-icon{
+    background-color: #0f9bf0;
+    padding: 7px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.chat-bot .chat .bot-reply .bot-chat{
+    background-color: rgb(220, 218, 218);
+    padding: 15px 20px;
+    border-radius: 0 15px 15px 15px;
 }

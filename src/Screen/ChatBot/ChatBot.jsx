@@ -20,7 +20,17 @@ const ChatBot = () => {
                 <IoMdClose />
             </div>
         </div>
-        <div className="chat"></div>
+        <div className="chat">
+            <div className='bot-q'>
+                <span>Hello Jinn</span>
+            </div>
+            <div className='bot-reply'>
+                <span className='chat-icon'><BsChatDotsFill /></span>
+                <span className='bot-chat'>
+                    <p>Hello Ali! How can i help you today?</p>
+                </span>
+            </div>
+        </div>
         <div className="foot"></div>
       
     </div>
